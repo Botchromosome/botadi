@@ -152,18 +152,18 @@ let pantek = 'https://i.ibb.co/8z7zqXv/IMG-20210618-WA0001.jpg'
 ├◪ *INFO*
 ││
 │├❒ *Owner Of This Bot*
-│├❒ _http://wa.me/6289504585790_
-│├❒ *Official WhatsApp Bot Groups*
-│├❒ *https://bit.ly/Grupgabutbotv1*
-│├❒ *Tap To Join our Telegram Group*
-│└❒ *https://t.me/gabutsquad44*
+│├❒ _http://wa.me/6281804832728_
+│├❒ *Tap To Join Our Whatsapp Group*
+│├❒ *https://chat.whatsapp.com/Cm0fFaBpOsYCL1ThUsM8Zc*
+│├❒ *instgaram*
+│└❒ https://instagram.com/AjurTwc*
 │
 └───────────────────────
 %readmore`
     let header = conn.menu.header || '┌──*「 ```%category``` 」*──'
     let body   = conn.menu.body   || '├◪ *%cmd%islimit*'
     let footer = conn.menu.footer || '└───────────────────────'
-    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + `\n\n*SPECIAL THANKS TO*\n\n*❒ Nurutomo*\n*❒ Drawl Nag*\n*❒ Caliph*\n*❒ BochilGaming*\n*❒ RendyCraft*\n*❒ Adi Official*\n*❒ Penyedia Apikey*\n*❒ Creator Bot WhatsApp*\n*❒ Dan Seluruh Pengguna Bot ini*`
+    let after  = conn.menu.after  || (conn.user.jid == global.conn.user.jid ? '' : `Powered by https://wa.me/${6281804832728}`) + `\n\n*SPECIAL THANKS TO*\n\n*❒ Nurutomo*\n*❒ Drawl Nag*\n*❒ Caliph*\n*❒ BochilGaming*\n*❒ RendyCraft*\n*❒ Adi Official*\n*❒ Penyedia Apikey*\n*❒ Creator Bot WhatsApp*\n*❒ Dan Seluruh Pengguna Bot ini*`
     let _text  = before + '\n'
     for (let tag in groups) {
       _text += header.replace(/%category/g, tags[tag]) + '\n'

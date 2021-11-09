@@ -1,7 +1,7 @@
 const os = process
 global.DeveloperMode = 'false' //true Or false
-global.owner = ['33623746892', '6289504585790'] || os.env["OWNER_NUMBER"]// Put your number here
-global.linkGC = ['http://bit.ly/Grupgabutbotv1']
+global.owner = ['6281804832728', '6281318759394'] || os.env["OWNER_NUMBER"]// Put your number here
+global.linkGC = ['https://chat.whatsapp.com/Cm0fFaBpOsYCL1ThUsM8Zc']
 global.mods = ['33623746892', '6289504585790'] // Want some help?
 global.prems = ['33623746892', '6289504585790'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
@@ -21,8 +21,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'Sticker Dari Bot Adi'
-global.author = 'GH: Adi-OfficialL'
+global.packname = 'Sticker Dari Bot ChM'
+global.author = 'GH: Ajur-OfficialL'
 
 global.multiplier = 69 // The higher, The harder levelup
 
